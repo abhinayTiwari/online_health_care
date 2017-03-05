@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+.userProfile{
+	width: 500px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.userProfile input[type=submit]
+{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 7px;
+  
+}
+.userProfileTable{
+	border:0;
+	width: 500px;
+	
+}
+.userProfile-submit
+{
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.userProfileTable td:nth-child(1){
+	font-weight: 500;
+	
+}
+
+.userProfileTable td input[type=text], input[type=password], input[type=number], input[type=email], input[type= date], textarea{
+	 height: 39px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 7px;
+}

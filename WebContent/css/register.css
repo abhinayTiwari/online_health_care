@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+
+#content-container {
+    height: 135%;
+}
+
+.registration-box{
+	padding: 20px;
+    width: 309px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    position: relative;
+    left: 7%;
+    display: inline-block;
+    top: 54px;
+}
+
+.registration-box h3
+{
+  margin: 0;
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 9px;
+  
+}
+
+.registration-box input[type=submit]
+{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 7px;
+}
+
+.registration-box input[type=text], input[type=password], input[type=name]
+ {
+    height: 32px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.gender
+{
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+.registration-box input[type=text]:hover, input[type=password]:hover
+{
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login
+{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 32px;
+  padding: 0 8px;
+}
+
+.login-submit
+{
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1);
+  background-color: #4d90fe;
+}
+
+.login-submit:hover
+{
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.login-box a
+ {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-box a:hover
+{
+  opacity: 1;
+}
+
+.Reg-ForgotP
+{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
